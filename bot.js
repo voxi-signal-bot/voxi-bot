@@ -66,7 +66,7 @@ app.get('/postback', (req, res) => {
       db.run(`UPDATE users SET deposited = 1 WHERE user_id = ?`, [user_id], (err) => {
         if (err) console.error('DB error on deposit:', err);
       });
-      bot.sendMessage(user_id, `Добро пожаловать в VOXI SIGNAL!\nСпасибо за пополнение, теперь прочитайте инструкцию и выбирайте игру в которой хотите получать Сигналы`, {
+      bot.sendMessage(user_id, `Хуй Добро пожаловать в VOXI SIGNAL!\nСпасибо за пополнение, теперь прочитайте инструкцию и выбирайте игру в которой хотите получать Сигналы`, {
         reply_markup: {
           inline_keyboard: [
             [{ text: 'ВЫБОР ИГРЫ', callback_data: 'select_game' }],
