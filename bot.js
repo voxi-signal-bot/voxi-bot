@@ -5,7 +5,7 @@ const sqlite3 = require('sqlite3').verbose();
 const crypto = require('crypto');
 
 // Настройки бота
-const TOKEN = '7658852315:AAF_Fq5SyHWZcrVKNTXs6iaexQCg1DNgnGQ'; // Ваш токен бота
+const TOKEN = '7089614137:AAFRI2dp6Eq6jfs0X5eTvlKAiiSENRre8Tg'; // Ваш токен бота
 const MINI_APP_URL = 'https://your-mini-app-domain.com'; // URL вашего Mini App (замените после деплоя Mini App)
 const REFERRAL_BASE_LINK = 'https://1wgxql.com/v3/aggressive-casino?p=qmgo'; // Ваша реферальная ссылка 1win
 const POSTBACK_SECRET = 'YOUR_1WIN_SECRET'; // Секретный ключ для подписи постбэков (если предоставлен 1win, иначе оставьте пустым)
