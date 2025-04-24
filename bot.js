@@ -222,7 +222,7 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
   // Настройте webhook после деплоя
-  bot.setWebHook('https://voxi-bot.railway.internal/webhook').then(() => {
+  bot.setWebHook('https://voxi-bot-production.up.railway.app/webhook').then(() => {
     console.log('Webhook set successfully');
   }).catch(err => {
     console.error('Error setting webhook:', err);
