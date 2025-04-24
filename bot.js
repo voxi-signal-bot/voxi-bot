@@ -204,7 +204,7 @@ bot.on('callback_query', (query) => {
 // Приветственное сообщение
 function sendWelcomeMessage(chatId, lang) {
   const message = lang === 'ru' ?
-    'ХУЙ Добро пожаловать в VOXI SIGNAL! НАШ БОТ 🤖 с помощью нейросети взламывает игры букмекерской конторы 1win. Он может предугадывать с вероятностью 89%.' :
+    'Добро пожаловать в VOXI SIGNAL! НАШ БОТ 🤖 с помощью нейросети взламывает игры букмекерской конторы 1win. Он может предугадывать с вероятностью 89%.' :
     'Bem-vindo ao VOXI SIGNAL! NOSSO BOT 🤖 usa uma rede neural para hackear jogos da casa de apostas 1win. Ele pode prever com 89% de probabilidade.';
   bot.sendMessage(chatId, message, {
     reply_markup: {
