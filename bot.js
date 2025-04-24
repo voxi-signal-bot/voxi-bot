@@ -46,12 +46,12 @@ app.get('/postback', (req, res) => {
   }
 
   // Проверка подписи (если 1win предоставляет подпись)
-  if (POSTBACK_SECRET && signature) {
-    if (!verifySignature(req.query, POSTBACK_SECRET)) {
-      console.error('Invalid signature in postback');
-      return res.status(403).send('Invalid signature');
-    }
-  }
+// if (POSTBACK_SECRET && signature) {
+//   if (!verifySignature(req.query, POSTBACK_SECRET)) {
+//     console.error('Invalid signature in postback');
+//     return res.status(403).send('Invalid signature');
+//   }
+// }
 
   if (event_id === 'registration') {
     db.run(`UPDATE users SET registered = 1 WHERE user_id = ?`, [user_id], (err) => {
