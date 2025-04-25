@@ -6,7 +6,7 @@ const crypto = require('crypto');
 
 // Настройки бота
 const TOKEN = '7593235862:AAHhO4N5aoAzLSXahZuZiAH5wMu4KimXGj0'; // Ваш токен бота
-const MINI_APP_URL = 'https://voxi-mini-app.railway.internal'; // URL вашего Mini App (замените после деплоя Mini App)
+const MINI_APP_URL = 'https://voxi-mini-app-production.up.railway.app'; // URL вашего Mini App (замените после деплоя Mini App)
 const REFERRAL_BASE_LINK = 'https://1wgxql.com/v3/aggressive-casino?p=qmgo'; // Ваша реферальная ссылка 1win
 const POSTBACK_SECRET = 'YOUR_1WIN_SECRET'; // Секретный ключ для подписи постбэков (если предоставлен 1win, иначе оставьте пустым)
 
