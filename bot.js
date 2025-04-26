@@ -5,7 +5,7 @@ const sqlite3 = require('sqlite3').verbose();
 const crypto = require('crypto');
 
 // Настройки бота
-const BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE'; // Вставьте ваш токен бота
+const BOT_TOKEN = '8145387934:AAFiFPUfKH0EwYST6ShOFdBSm6IvwhPkEqY'; // Вставьте ваш токен бота
 const CHANNEL_ID = '@YourChannel'; // ID вашего Telegram-канала
 const MINI_APP_URL = 'https://your-mini-app-url'; // URL вашего Mini App
 const APP_URL = 'https://your-railway-app-url'; // URL приложения на Railway
